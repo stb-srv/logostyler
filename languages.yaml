@@ -1,0 +1,12 @@
+en:
+  PLUGIN_LOGOSTYLER:
+    LOGO_HEIGHT: Logo height (px)
+    LOGO_MAXWIDTH: Maximum logo width (px)
+    LOGO_PADDINGTOP: Padding top (px)
+    LOGO_MOBILE_HEIGHT: Logo height on mobile (px)
+de:
+  PLUGIN_LOGOSTYLER:
+    LOGO_HEIGHT: Logo-Höhe (px)
+    LOGO_MAXWIDTH: Maximale Logo-Breite (px)
+    LOGO_PADDINGTOP: Abstand oben (px)
+    LOGO_MOBILE_HEIGHT: Logo-Höhe auf Mobil (px)

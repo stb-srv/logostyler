@@ -1,0 +1,65 @@
+name: Logo Styler
+version: 1.0.0
+description: 'Passe die Größe und den Abstand deines Logos für alle Themes an – ganz ohne Theme-Hack.'
+icon: star
+author:
+  name: Steven Behncke
+  email: admin@stb-srv.de
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin aktiviert
+      highlight: 1
+      default: 1
+      options:
+        1: Ja
+        0: Nein
+      validate:
+        type: bool
+
+    logo_height:
+      type: number
+      label: Logo-Höhe (px, Desktop)
+      default: 80
+      validate:
+        type: int
+        min: 20
+        max: 400
+
+    logo_maxwidth:
+      type: number
+      label: Maximale Logo-Breite (px)
+      default: 350
+      validate:
+        type: int
+        min: 40
+        max: 1200
+
+    logo_paddingtop:
+      type: number
+      label: Abstand zum oberen Rand (px)
+      default: 0
+      validate:
+        type: int
+        min: 0
+        max: 120
+
+    logo_mobile_height:
+      type: number
+      label: Logo-Höhe auf Mobil (px)
+      default: 50
+      validate:
+        type: int
+        min: 10
+        max: 120
+
+    header_height:
+      type: number
+      label: Header-Höhe (rem)
+      default: 5
+      validate:
+        type: float
+        min: 2
+        max: 12
