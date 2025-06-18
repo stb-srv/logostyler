@@ -5,6 +5,8 @@ icon: star
 author:
   name: Steven Behncke
   email: admin@stb-srv.de
+keywords: logo, startseite, groeße, alles
+license: MIT
 form:
   validation: loose
   fields:
