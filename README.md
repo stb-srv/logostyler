@@ -37,6 +37,10 @@ Das Plugin funktioniert mit allen Grav-Themes, die das Logo mit `.logo img` oder
 
 ---
 
+![image](https://github.com/user-attachments/assets/2d61ad39-461a-4466-a99a-32e73813e78a)
+
+---
+
 **Autor:** Steven Behncke  
 **E-Mail:** admin@stb-srv.de  
 **Version:** 1.0.0
